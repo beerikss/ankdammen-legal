@@ -8,7 +8,7 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.7",
+    "updated": "Version 1.8",
     "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall — men den är ännu inte juridiskt granskad av en jurist, vilket rekommenderas innan appen lanseras brett för allmänheten.",
     "sections": [
       {
@@ -37,7 +37,7 @@ const DOCS = {
       },
       {
         "heading": "7. Plats och ungefärlig position",
-        "body": "Ankdammen visar aldrig din exakta position för andra medlemmar — bara ett avståndsintervall (t.ex. \"Inom 10 km\" eller \"10–25 km\"). Den GPS-position du delar avrundas dessutom både i appen och på våra servrar med en slumpmässig förskjutning på ungefär en kilometer innan den sparas, specifikt för att göra det svårt att räkna ut någons exakta position genom att jämföra flera avståndsuppgifter över tid. Denna förskjutning uppdateras varje gång du hämtar en ny position."
+        "body": "Ankdammen visar aldrig din exakta position för andra medlemmar — bara ett avståndsintervall (t.ex. \"Inom 10 km\" eller \"10–25 km\"). Appen använder bara ungefärlig plats: när du hämtar din position avrundas den redan i telefonen till ett område på minst cirka 4 km² innan den skickas, och på våra servrar förskjuts den dessutom slumpmässigt ungefär en kilometer innan den sparas — specifikt för att göra det svårt att räkna ut någons exakta position genom att jämföra flera avståndsuppgifter över tid. Ortnamnet tas fram med telefonens egen platstjänst (Google på Android, Apple på iPhone). Flyttar du dig mindre än cirka 3 km behålls den sparade positionen, och positionen kan ändras högst tio gånger per dygn."
       },
       {
         "heading": "8. Meddelanden, matchningar och rapporter",
