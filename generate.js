@@ -8,7 +8,7 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.9",
+    "updated": "Version 1.10",
     "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall — men den är ännu inte juridiskt granskad av en jurist, vilket rekommenderas innan appen lanseras brett för allmänheten.",
     "sections": [
       {
@@ -53,7 +53,7 @@ const DOCS = {
       },
       {
         "heading": "11. Lagringstid och radering",
-        "body": "Din profil, dina foton, matchningar och meddelanden sparas så länge ditt konto är aktivt. Väljer du att radera ditt konto (Profil → Radera konto) tas kontot och tillhörande data bort permanent och omedelbart — det finns inget sätt att ångra detta i efterhand. Tre undantag: rapporter samt uppgifter om vilka villkor du godkänt och när (se avsnitt 5 ovan) sparas även efter att kontot raderats, med kontokopplingen borttagen, eftersom de utgör en oberoende historik som behövs av säkerhets- och redovisningsskäl. Har en annan medlem blockerat dig sparas dessutom din e-postadress, ditt telefonnummer och ditt förnamn i den blockeringen även om du raderar ditt konto, så att blockeringen fortsätter att gälla om du registrerar dig på nytt — detta sker för att skydda den som blockerat (berättigat intresse) och uppgifterna visas aldrig för någon annan. Blockeringen tas bort om medlemmen som gjort den häver den eller raderar sitt eget konto."
+        "body": "Din profil, dina foton, matchningar och meddelanden sparas så länge ditt konto är aktivt. Väljer du att radera ditt konto (Profil → Radera konto) tas kontot och tillhörande data bort permanent och omedelbart — det finns inget sätt att ångra detta i efterhand. Tre undantag: rapporter samt uppgifter om vilka villkor och samtycken du godkänt och när — inklusive samtycket till att ditt kön och vem du söker efter används för matchning (se avsnitt 4) — sparas även efter att kontot raderats, med kontokopplingen borttagen, eftersom de utgör en oberoende historik som behövs av säkerhets- och redovisningsskäl. Har en annan medlem blockerat dig sparas dessutom din e-postadress, ditt telefonnummer och ditt förnamn i den blockeringen även om du raderar ditt konto, så att blockeringen fortsätter att gälla om du registrerar dig på nytt — detta sker för att skydda den som blockerat (berättigat intresse) och uppgifterna visas aldrig för någon annan. Blockeringen tas bort om medlemmen som gjort den häver den eller raderar sitt eget konto."
       },
       {
         "heading": "12. Automatiserat beslutsfattande",
