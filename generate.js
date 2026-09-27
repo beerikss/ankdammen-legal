@@ -8,7 +8,7 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.11",
+    "updated": "Version 1.12",
     "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall.",
     "sections": [
       {
@@ -17,7 +17,7 @@ const DOCS = {
       },
       {
         "heading": "2. Vilka uppgifter vi samlar in",
-        "body": "Kontouppgifter: e-postadress och lösenord (lösenordet lagras aldrig i klartext — det hanteras av vår autentiseringsleverantör med branschstandardkryptering). Profiluppgifter: namn, födelsedatum, kön, vem du söker efter, foton (minst 3 krävs), presentationstext, yrke, utbildning, arbetsplats samt livsstilsuppgifter du själv väljer att fylla i (familjeplanering, husdjur, alkohol, rökning, träning och kost). Kontaktuppgift för vänbekräftelse: telefonnummer, som endast används för att en befintlig medlem ska kunna bekräfta att de känner dig vid registrering (se avsnitt 3 i användarvillkoren) — det används aldrig för att logga in. Din väns kontaktuppgifter: vid registrering anger du även din väns e-postadress och telefonnummer. Dessa uppgifter skickas till våra servrar enbart för att kontrollera att de matchar ett befintligt, godkänt medlemskonto — vi sparar inga nya uppgifter om din vän utöver den koppling (sponsorskap) som visar att de gått i god för dig; hittas ingen matchning sparas ingenting alls om det angivna numret eller e-postadressen. Platsuppgift: en ungefärlig position (se avsnitt 7 nedan om hur den skyddas) samt den ort du valt att visa. Aktivitetsuppgifter: vilka profiler du gillar eller går vidare från, matchningar, meddelanden du skickar och tar emot, samt eventuella rapporter och blockeringar du gör eller blir föremål för."
+        "body": "Kontouppgifter: e-postadress och lösenord (lösenordet lagras aldrig i klartext — det hanteras av vår autentiseringsleverantör med branschstandardkryptering). Profiluppgifter: namn, födelsedatum, kön, vem du söker efter, foton (minst 3 krävs), presentationstext, yrke, utbildning, arbetsplats samt livsstilsuppgifter du själv väljer att fylla i (familjeplanering, husdjur, alkohol, rökning, träning och kost). Kontaktuppgift för vänbekräftelse: telefonnummer, som endast används för att en befintlig medlem ska kunna bekräfta att de känner dig vid registrering (se avsnitt 3 i användarvillkoren) — det används aldrig för att logga in. Din väns kontaktuppgifter: vid registrering anger du även din väns e-postadress och telefonnummer. Dessa uppgifter skickas till våra servrar enbart för att kontrollera att de matchar ett befintligt, godkänt medlemskonto — vi sparar inga nya uppgifter om din vän utöver den koppling (sponsorskap) som visar att de gått i god för dig; hittas ingen matchning sparas inget om det angivna numret, utöver att e-postadressen tillsammans med din IP-adress sparas i högst ett dygn för att begränsa upprepade försök (skydd mot missbruk). Platsuppgift: en ungefärlig position (se avsnitt 7 nedan om hur den skyddas) samt den ort du valt att visa. Aktivitetsuppgifter: vilka profiler du gillar eller går vidare från, matchningar, meddelanden du skickar och tar emot, samt eventuella rapporter och blockeringar du gör eller blir föremål för."
       },
       {
         "heading": "3. Vilka uppgifter som krävs för att använda tjänsten",
@@ -45,7 +45,7 @@ const DOCS = {
       },
       {
         "heading": "9. Cookies och lokal lagring",
-        "body": "Ankdammen använder inga cookies eller liknande spårningsteknik för analys eller marknadsföring — appen har ingen analys- eller annonsintegration av något slag. Viss information sparas lokalt på din enhet: dels sådant som krävs för att appen ska fungera (bland annat din inloggningssession, hanterad via operativsystemets säkra, krypterade lagring), dels — om du godkänner det i bannern om lokal lagring — dina notisinställningar, så att de kommer ihåg vad du valt mellan sessioner. Den lagring som krävs för att appen ska fungera kan inte stängas av; den funktionella delen kan du när som helst ändra under inställningarna för lokal lagring."
+        "body": "Ankdammen använder inga cookies eller liknande spårningsteknik för analys eller marknadsföring — appen har ingen analys- eller annonsintegration av något slag. Viss information sparas lokalt på din enhet: dels sådant som krävs för att appen ska fungera (bland annat din inloggningssession, hanterad via operativsystemets säkra, krypterade lagring, samt en kopia av din egen profil medan du är inloggad, som raderas från enheten när du loggar ut), dels — om du godkänner det i bannern om lokal lagring — dina notisinställningar, så att de kommer ihåg vad du valt mellan sessioner. Den lagring som krävs för att appen ska fungera kan inte stängas av; den funktionella delen kan du när som helst ändra under inställningarna för lokal lagring."
       },
       {
         "heading": "10. Delning med tredje part",
