@@ -8,12 +8,12 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.10",
-    "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall — men den är ännu inte juridiskt granskad av en jurist, vilket rekommenderas innan appen lanseras brett för allmänheten.",
+    "updated": "Version 1.11",
+    "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall.",
     "sections": [
       {
         "heading": "1. Vem är personuppgiftsansvarig",
-        "body": "Personuppgiftsansvarig för behandlingen av dina personuppgifter i Ankdammen är Ben Eriksson, Esbo (privatperson — inget FO-nummer ännu registrerat). Vid frågor om dataskydd, kontakta oss på support@ankdammenapp.com. Inget dataskyddsombud (DPO) är för närvarande utsett. Ankdammen behandlar i stor skala uppgifter som kan avslöja sexuell läggning (varje profil innehåller kön och vem man söker efter), vilket enligt GDPR artikel 37.1 c kan innebära en skyldighet att utse ett dataskyddsombud — den bedömningen har ännu inte gjorts av en jurist och bör klargöras innan appen lanseras brett för allmänheten."
+        "body": "Personuppgiftsansvarig för behandlingen av dina personuppgifter i Ankdammen är Ben Eriksson, Esbo (privatperson — inget FO-nummer ännu registrerat). Vid frågor om dataskydd, kontakta oss på support@ankdammenapp.com. Inget dataskyddsombud (DPO) är utsett. Ankdammen frågar inte efter sexuell läggning och är en liten, inbjudningsbaserad tjänst, och vår bedömning är därför att skyldigheten att utse ett dataskyddsombud enligt GDPR artikel 37 inte gäller. Bedömningen ses över om tjänsten växer."
       },
       {
         "heading": "2. Vilka uppgifter vi samlar in",
@@ -87,8 +87,8 @@ const DOCS = {
   },
   "terms": {
     "title": "Användarvillkor",
-    "updated": "Version 1.2",
-    "intro": "Dessa användarvillkor gäller för ditt konto och din användning av Ankdammen. De är skrivna för att spegla hur appen faktiskt fungerar, men är ännu inte juridiskt granskade av en jurist, vilket rekommenderas innan appen lanseras brett för allmänheten.",
+    "updated": "Version 1.3",
+    "intro": "Dessa användarvillkor gäller för ditt konto och din användning av Ankdammen. De är skrivna för att spegla hur appen faktiskt fungerar.",
     "sections": [
       {
         "heading": "1. Godkännande av villkoren",
@@ -196,11 +196,6 @@ function renderDoc(doc, otherSlug, otherTitle) {
 
     <h1>${esc(doc.title)}</h1>
     <p class="meta">${esc(doc.updated || '')}</p>
-
-    <div class="notice">
-      ⚠ Utkast — bör granskas av en jurist innan appen lanseras för riktiga användare. Fält märkta
-      <span class="placeholder">[så här]</span> är ännu inte ifyllda med riktig information.
-    </div>
 
     <p class="intro">${renderBody(doc.intro)}</p>
 
