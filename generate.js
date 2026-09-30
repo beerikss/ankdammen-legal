@@ -8,7 +8,7 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.13",
+    "updated": "Version 1.14",
     "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall.",
     "sections": [
       {
@@ -53,7 +53,7 @@ const DOCS = {
       },
       {
         "heading": "11. Lagringstid och radering",
-        "body": "Din profil, dina foton, matchningar och meddelanden sparas så länge ditt konto är aktivt. Väljer du att radera ditt konto (Profil → Radera konto) tas kontot och tillhörande data bort permanent och omedelbart — det finns inget sätt att ångra detta i efterhand. Tre undantag: rapporter samt uppgifter om vilka villkor och samtycken du godkänt och när — inklusive samtycket till att ditt kön och vem du söker efter används för matchning (se avsnitt 4) — sparas även efter att kontot raderats, med kontokopplingen borttagen, eftersom de utgör en oberoende historik som behövs av säkerhets- och redovisningsskäl. Har en annan medlem blockerat dig sparas dessutom din e-postadress, ditt telefonnummer och ditt förnamn i den blockeringen även om du raderar ditt konto, så att blockeringen fortsätter att gälla om du registrerar dig på nytt — detta sker för att skydda den som blockerat (berättigat intresse) och uppgifterna visas aldrig för någon annan. Blockeringen tas bort om medlemmen som gjort den häver den eller raderar sitt eget konto."
+        "body": "Din profil, dina foton, matchningar och meddelanden sparas så länge ditt konto är aktivt. Väljer du att radera ditt konto (Profil → Radera konto) tas kontot och tillhörande data bort permanent och omedelbart — det finns inget sätt att ångra detta i efterhand. Tre undantag: rapporter samt uppgifter om vilka villkor och samtycken du godkänt och när — inklusive samtycket till att ditt kön och vem du söker efter används för matchning (se avsnitt 4) — sparas även efter att kontot raderats, med kontokopplingen borttagen, eftersom de utgör en oberoende historik som behövs av säkerhets- och redovisningsskäl. Har en annan medlem blockerat dig sparas dessutom din e-postadress, ditt telefonnummer och ditt förnamn i den blockeringen även om du raderar ditt konto, så att blockeringen fortsätter att gälla om du registrerar dig på nytt — detta sker för att skydda den som blockerat (berättigat intresse) och uppgifterna visas aldrig för någon annan. Blockeringen tas bort om medlemmen som gjort den häver den eller raderar sitt eget konto. När ett godkänt konto raderas sparar vi dessutom ett så kallat fingeravtryck av e-postadressen och telefonnumret — en kod som känner igen samma uppgifter om de används igen men som inte går att omvandla tillbaka till adressen eller numret — tillsammans med vem som gick i god för kontot. Så länge fingeravtrycket finns kvar kan e-postadressen och telefonnumret inte användas för att registrera ett nytt konto: 30 dagar efter en vanlig radering, ett år om det fanns rapporter mot kontot som inte avfärdats, och två år om kontot var avstängt. Under de första 30 dagarna räknas det raderade kontot också in i vännens gräns för inbjudningar. Syftet är enbart att förhindra att någon raderar och återskapar sitt konto för att undgå rapporter eller avstängning, eller för att kringgå gränsen för inbjudningar (berättigat intresse). Fingeravtrycket raderas automatiskt när tiden gått ut och används aldrig till något annat."
       },
       {
         "heading": "12. Automatiserat beslutsfattande",
@@ -87,7 +87,7 @@ const DOCS = {
   },
   "terms": {
     "title": "Användarvillkor",
-    "updated": "Version 1.3",
+    "updated": "Version 1.4",
     "intro": "Dessa användarvillkor gäller för ditt konto och din användning av Ankdammen. De är skrivna för att spegla hur appen faktiskt fungerar.",
     "sections": [
       {
@@ -120,7 +120,7 @@ const DOCS = {
       },
       {
         "heading": "8. Radera konto",
-        "body": "Du kan när som helst radera ditt konto under Profil → Radera konto. Raderingen är permanent och sker omedelbart — din profil, dina foton, matchningar och meddelanden tas bort och kan inte återställas. Rapporter som rör dig, samt uppgifter om vilka villkor du godkänt, sparas dock enligt vad som beskrivs i integritetspolicyn (avsnitt 11), eftersom de utgör en oberoende historik."
+        "body": "Du kan när som helst radera ditt konto under Profil → Radera konto. Raderingen är permanent och sker omedelbart — din profil, dina foton, matchningar och meddelanden tas bort och kan inte återställas. Rapporter som rör dig, samt uppgifter om vilka villkor du godkänt, sparas dock enligt vad som beskrivs i integritetspolicyn (avsnitt 11), eftersom de utgör en oberoende historik. Samma e-postadress och telefonnummer kan därefter inte användas för att registrera ett nytt konto under en viss tid — 30 dagar, eller längre om kontot har rapporterats eller stängts av (se integritetspolicyn, avsnitt 11)."
       },
       {
         "heading": "9. Ansvarsbegränsning",
