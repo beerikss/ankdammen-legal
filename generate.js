@@ -8,12 +8,12 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.16",
+    "updated": "Version 1.17",
     "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall.",
     "sections": [
       {
         "heading": "1. Vem är personuppgiftsansvarig",
-        "body": "Personuppgiftsansvarig för behandlingen av dina personuppgifter i Ankdammen är Ben Eriksson, Esbo (privatperson — inget FO-nummer ännu registrerat). Vid frågor om dataskydd, kontakta oss på support@ankdammenapp.com. Inget dataskyddsombud (DPO) är utsett. Ankdammen frågar inte efter sexuell läggning och är en liten, inbjudningsbaserad tjänst, och vår bedömning är därför att skyldigheten att utse ett dataskyddsombud enligt GDPR artikel 37 inte gäller. Bedömningen ses över om tjänsten växer."
+        "body": "Personuppgiftsansvarig för behandlingen av dina personuppgifter i Ankdammen är Ben Eriksson, Esbo (privatperson). Vid frågor om dataskydd, kontakta oss på support@ankdammenapp.com. Inget dataskyddsombud (DPO) är utsett. Ankdammen frågar inte efter sexuell läggning och är en liten, inbjudningsbaserad tjänst, och vår bedömning är därför att skyldigheten att utse ett dataskyddsombud enligt GDPR artikel 37 inte gäller. Bedömningen ses över om tjänsten växer."
       },
       {
         "heading": "2. Vilka uppgifter vi samlar in",
