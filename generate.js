@@ -8,7 +8,7 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.18",
+    "updated": "Version 1.18.1",
     "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall.",
     "sections": [
       {
@@ -73,7 +73,7 @@ const DOCS = {
       },
       {
         "heading": "16. Säkerhetsåtgärder",
-        "body": "Vi vidtar tekniska och organisatoriska åtgärder för att skydda dina uppgifter, bland annat: kryptering av all trafik mellan appen och våra servrar (HTTPS/TLS); åtkomstkontroll på databasnivå (Row Level Security) som begränsar vilka uppgifter varje konto kan se och ändra, med extra begränsningar för känsliga fält som telefonnummer och platsuppgifter; hastighetsbegränsning (rate limiting) mot missbruk av inloggning, registrering, lösenordsbyten och byten av e-postadress (högst tre av varje per dygn), koder som skickas per e-post (högst tre per timme och fem per dygn per e-postadress — för att räkna dem sparas ett fingeravtryck av e-postadressen, som inte går att omvandla tillbaka till adressen, i högst ett dygn), gilla-markeringar, meddelanden och rapporter; en kontroll av att det är en människa och inte ett automatiserat program vid registrering och inloggning (Cloudflare, se avsnitt 10); slumpmässig förskjutning av platsuppgifter för att förhindra triangulering (se avsnitt 7); samt att ingen databasnyckel som kringgår dessa skydd finns i appens kod eller på klientsidan. Ingen lösning är helt riskfri, men det här är de konkreta åtgärder som finns på plats idag."
+        "body": "Vi vidtar tekniska och organisatoriska åtgärder för att skydda dina uppgifter, bland annat: kryptering av all trafik mellan appen och våra servrar (HTTPS/TLS); åtkomstkontroll på databasnivå (Row Level Security) som begränsar vilka uppgifter varje konto kan se och ändra, med extra begränsningar för känsliga fält som telefonnummer och platsuppgifter; hastighetsbegränsning (rate limiting) mot missbruk av inloggning och registrering, lösenordsbyten (högst två per dygn), byten av e-postadress (högst ett per dygn), koder som skickas per e-post (högst två per timme och tre per dygn per e-postadress — för att räkna dem sparas ett fingeravtryck av e-postadressen, som inte går att omvandla tillbaka till adressen, i högst ett dygn), e-post från appen (högst sju per konto och dygn; meddelanden om att ditt lösenord eller din e-postadress har ändrats skickas alltid), gilla-markeringar, meddelanden och rapporter; en kontroll av att det är en människa och inte ett automatiserat program vid registrering och inloggning (Cloudflare, se avsnitt 10); slumpmässig förskjutning av platsuppgifter för att förhindra triangulering (se avsnitt 7); samt att ingen databasnyckel som kringgår dessa skydd finns i appens kod eller på klientsidan. Ingen lösning är helt riskfri, men det här är de konkreta åtgärder som finns på plats idag."
       },
       {
         "heading": "17. Ändringar av denna policy",
