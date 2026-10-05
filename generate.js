@@ -8,7 +8,7 @@ const path = require('path');
 const DOCS = {
   "privacy": {
     "title": "Integritetspolicy",
-    "updated": "Version 1.18.2",
+    "updated": "Version 1.18.3",
     "intro": "Den här integritetspolicyn beskriver hur Ankdammen samlar in, använder och skyddar dina personuppgifter, i enlighet med EU:s dataskyddsförordning (GDPR). Den är skriven för att spegla hur appen faktiskt fungerar snarare än att vara en generisk mall.",
     "sections": [
       {
@@ -45,7 +45,7 @@ const DOCS = {
       },
       {
         "heading": "9. Cookies och lokal lagring",
-        "body": "Ankdammen använder inga cookies eller liknande spårningsteknik för analys eller marknadsföring — appen har ingen analys- eller annonsintegration av något slag. Viss information sparas lokalt på din enhet: dels sådant som krävs för att appen ska fungera (bland annat din inloggningssession, hanterad via operativsystemets säkra, krypterade lagring, samt en kopia av din egen profil medan du är inloggad, som raderas från enheten när du loggar ut), dels — om du godkänner det i bannern om lokal lagring — dina notisinställningar, så att de kommer ihåg vad du valt mellan sessioner. Den lagring som krävs för att appen ska fungera kan inte stängas av; den funktionella delen kan du när som helst ändra under inställningarna för lokal lagring."
+        "body": "Ankdammen använder inga cookies eller liknande spårningsteknik för analys eller marknadsföring — appen har ingen analys- eller annonsintegration av något slag. Appen sparar bara sådant på din enhet som krävs för att den ska fungera: din inloggningssession (i operativsystemets säkra, krypterade lagring), en kopia av din egen profil medan du är inloggad (den raderas från enheten när du loggar ut) samt dina notisinställningar, som också sparas på våra servrar. Eftersom den här lagringen är nödvändig för att tillhandahålla tjänsten du har bett om krävs inget samtycke för den, och appen frågar därför inte om lokal lagring."
       },
       {
         "heading": "10. Delning med tredje part",
