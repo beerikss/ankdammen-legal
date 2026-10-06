@@ -87,7 +87,7 @@ const DOCS = {
   },
   "terms": {
     "title": "Användarvillkor",
-    "updated": "Version 1.5",
+    "updated": "Version 1.5.1",
     "intro": "Dessa användarvillkor gäller för ditt konto och din användning av Ankdammen. De är skrivna för att spegla hur appen faktiskt fungerar.",
     "sections": [
       {
@@ -100,7 +100,7 @@ const DOCS = {
       },
       {
         "heading": "3. Kontoansökan via vän",
-        "body": "Ankdammen är en inbjudningsbaserad tjänst. För att registrera dig måste du uppge kontaktuppgifter (e-post och telefonnummer) till en befintlig, godkänd medlem som går i god för dig. Det räcker inte att uppgifterna stämmer — din vän måste också aktivt godkänna din ansökan innan kontot går att använda. Din ansökan syns för din vän under \"Väntande ansökningar\" tills de godkänner eller avvisar den. En medlem kan godkänna högst fem nya medlemmar per tre dagar, och högst fem ansökningar kan vänta på samma medlem samtidigt."
+        "body": "Ankdammen är en inbjudningsbaserad tjänst. För att registrera dig måste du uppge kontaktuppgifter (e-post och telefonnummer) till en befintlig, godkänd medlem som går i god för dig. Det räcker inte att uppgifterna stämmer — din vän måste också aktivt godkänna din ansökan innan kontot går att använda. Din ansökan syns för din vän under \"Väntande ansökningar\" tills de godkänner eller avvisar den. En medlem kan godkänna högst fem nya medlemmar per tre dagar, och högst fem ansökningar kan vänta på samma medlem samtidigt. En ny medlem kan börja godkänna andra från och med dagen efter att den själv blivit godkänd (finsk tid). Tillfälliga e-postadresser (engångsadresser) kan inte användas för att registrera sig."
       },
       {
         "heading": "4. Ditt konto och din profil",
@@ -116,7 +116,7 @@ const DOCS = {
       },
       {
         "heading": "7. Rapportering och avstängning",
-        "body": "Om du upplever olämpligt beteende, i chatten eller vid en dejt, kan du rapportera det direkt från chattfönstret. Rapporter granskas manuellt. Bryter en medlem mot dessa villkor kan vi, efter granskning, stänga av kontot. En avstängning gäller omedelbart — vi väntar inte tills en eventuell inloggad session löper ut. Vi förbehåller oss rätten att bedöma varje ärende individuellt och behöver inte ange skälet till en avstängning i detalj."
+        "body": "Om du upplever olämpligt beteende, i chatten eller vid en dejt, kan du rapportera det direkt från chattfönstret. Rapporter granskas manuellt. Bryter en medlem mot dessa villkor kan vi, efter granskning, stänga av kontot. En avstängning gäller omedelbart — vi väntar inte tills en eventuell inloggad session löper ut. Vi förbehåller oss rätten att bedöma varje ärende individuellt och behöver inte ange skälet till en avstängning i detalj. Stängs en medlem av förlorar den som gick i god för medlemmen möjligheten att godkänna nya medlemmar tills vi har gått igenom saken; ansökningar som väntar ligger kvar under tiden. Har flera konton skapats för att gå i god för varandra kan alla konton i den kedjan stängas av."
       },
       {
         "heading": "8. Radera konto",
